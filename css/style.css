@@ -41,6 +41,7 @@
  }
  .background_green{
     background-color: green;
+    border: 1px solid black;
  }
  .background_yellow{
     background-color: yellow;
@@ -74,4 +75,8 @@
     .sidebar{
         width: 70px;
     }
+    main{
+        padding-left: 70px;
+    }
+   
  }
