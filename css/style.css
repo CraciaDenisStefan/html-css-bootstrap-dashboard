@@ -13,7 +13,9 @@
  .h_150{
     height: 150px;
  }
-
+ .w_20{
+    width: 20px;
+ }
  .w_100{
     width: 100px;
  }
@@ -53,12 +55,15 @@
  /* Inizio sidebar */
  .sidebar{
     margin-top: 60px;
+    width: 150px;
+    height: 100vh;
  }
+
  /* Inizio main */
  main{
     height: 100%;
     padding-top: 60px;
-    padding-left: 200px;
+    padding-left: 150px;
     width: 100vw;
     background-color: orange;
  }
