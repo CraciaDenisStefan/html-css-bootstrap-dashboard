@@ -3,3 +3,47 @@
     margin: 0;
     box-sizing: border-box;
  }
+ /* Utilities da eliminare alla fine */
+ .h_50{
+    height: 50px;
+ }
+ .h_100{
+    height: 100px;
+ }
+ .h_150{
+    height: 150px;
+ }
+
+ .w_100{
+    width: 100px;
+ }
+ .w_200{
+    width: 200px;
+ }
+ .h_full{
+    height: 100vh;
+ }
+
+ .background_red{
+    background-color: red;
+ }
+ .background_blue{
+    background-color: blue;
+ }
+ .background_green{
+    background-color: green;
+ }
+ .background_yellow{
+    background-color: yellow;
+ }
+ /* Utilities da eliminare alla fine */
+ main{
+    height: 100%;
+    padding-top: 150px;
+    padding-left: 200px;
+    width: 100vw;
+    background-color: orange;
+ }
+ .sidebar{
+    margin-top: 150px;
+ }
