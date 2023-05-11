@@ -94,7 +94,22 @@
  .fs_custom{
    font-size: 0.9rem;
  }
-
+ .fa-trash, .fa-pen{
+   font-size: 0.8rem;
+   border: 1px solid gray;
+   color:gray;
+   border-radius: 5px;
+   padding: 5px;
+ }
+ .w_100{
+   width: 100%;
+ }
+ .fa-code{
+   padding: 6px 4px;
+   background-color: orange;
+   border-radius: 50%;
+   margin-right: 4px;
+ }
 
  @media screen and (max-width: 768px){
     .sidebar{
