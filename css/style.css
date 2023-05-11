@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
  }
+ body{
+   font-family: 'Roboto', sans-serif;
+ }
  /* Utilities da eliminare alla fine */
  .h_50{
     height: 50px;
@@ -88,6 +91,10 @@
     width: 100vw;
     background-color: orange;
  }
+ .fs_custom{
+   font-size: 0.9rem;
+ }
+
 
  @media screen and (max-width: 768px){
     .sidebar{
