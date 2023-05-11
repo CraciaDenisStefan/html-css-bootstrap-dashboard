@@ -6,51 +6,6 @@
  body{
    font-family: 'Roboto', sans-serif;
  }
- /* Utilities da eliminare alla fine */
- .h_50{
-    height: 50px;
- }
- .h_100{
-    height: 100px;
- }
- .h_150{
-    height: 150px;
- }
- .w_20{
-    width: 20px;
- }
- .w_100{
-    width: 100px;
- }
- .w_200{
-    width: 200px;
- }
- .h_full{
-    height: 100vh;
- }
- .h_60{
-    height: 60px;
- }
- .h_20{
-    height: 20px;
-    background-color: brown;
-    border: 1px solid black;
- }
-
- .background_red{
-    background-color: red;
- }
- .background_blue{
-    background-color: blue;
- }
- .background_green{
-    background-color: green;
-    border: 1px solid black;
- }
- .background_yellow{
-    background-color: yellow;
- }
- /* Utilities da eliminare alla fine */
  /* Inizio search bar */
  .searchbar{
     height: 60px;
@@ -89,17 +44,12 @@
     padding-top: 60px;
     padding-left: 150px;
     width: 100vw;
+    background-color: rgb(247, 247, 247);;
  }
  .fs_custom{
-   font-size: 0.9rem;
+   font-size: 1rem;
  }
- .fa-trash, .fa-pen{
-   font-size: 0.8rem;
-   border: 1px solid gray;
-   color:gray;
-   border-radius: 5px;
-   padding: 5px;
- }
+
  .w_100{
    width: 100%;
  }
@@ -113,13 +63,8 @@
  .badge{
    background-color: rgba(0, 0, 0, 0.137);
  }
-.fa-plus{
-   background-color: rgba(0, 0, 0, 0.137);
-   border-radius: 45%;
-   padding: 7px;
-   font-size: 0.6rem;
-}
 
+/* Inizio media */
  @media screen and (max-width: 768px){
     .sidebar{
         width: 70px;
