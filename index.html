@@ -89,7 +89,7 @@
                     <div class="col-12 col-sm-3 order-sm-3  ">
                         <h4 class="fs_custom  text-white d-inline">Nuovo studente </h4>
                         <span> 
-                            <button class="btn btn-outline-light btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                            <button class="btn btn-outline-light btn-primary fs_custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                         </span>
                     </div>
                     <div class="col-12 col-sm-6 order-sm-1 ">
@@ -324,7 +324,7 @@
                                 <ul class="list-group fs_custom">
                                     <li class="list-group-item">
                                         <div class="form-check ">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
                                              <label class="form-check-label" for="defaultCheck1">
                                                 Kickoff nuove classi
                                             </label>
@@ -332,7 +332,7 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="form-check ">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
                                             <label class="form-check-label" for="defaultCheck1">
                                                 Lezione di Bootstrap 5 in classe #75
                                             </label>
@@ -340,7 +340,7 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
                                             <label class="form-check-label" for="defaultCheck1">
                                                 Controllare username github studenti.
                                             </label>
@@ -375,14 +375,90 @@
         </div>
     </main>
     
-
+    <!-- Inizio offcanvas -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    ...
+    <div class="container">
+        <div class="row g-3">
+            <!-- Inserisci nome email password -->
+            <div class="col-12 col-md-6">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="cognome" class="form-label">Cognome</label>
+                <input type="text" class="form-control" id="cognome">
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="email1" class="form-label ">Email</label> 
+                <div class="input-group">
+                    <span class="input-group-text">@</span> 
+                    <input type="text" class="form-control" id="email1" placeholder="">
+                </div>    
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="password1" class="form-label ">Password</label>
+                <input type="password" class="form-control" id="password1" placeholder="">
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="email" class="form-label ">Indirizzo Email</label> 
+                <div class="input-group">
+                    <span class="input-group-text">@</span> 
+                    <input type="text" class="form-control" id="email" placeholder="">
+                </div>    
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="password" class="form-label ">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="">
+            </div>
+            <!-- Inserisci indirizzo -->
+            <div class="col-12">
+                <label for="indirizzo" class="form-label">Indirizzo</label>
+                <input type="text" class="form-control" id="indirizzo">
+            </div>
+            <!-- Inserisci citta -->
+            <div class="col-12 col-md-6">
+                <label for="citta" class="form-label">Città</label>
+                <input type="text" class="form-control" id="citta">
+            </div>
+            <div class="col-12 col-md-4">
+                <label for="citta" class="form-label">Stato</label>
+                <select class="form-select">
+                    <option selected>Scegli...</option>
+                    <option value="1">Lombardia</option>
+                    <option value="2">Piemonte</option>
+                    <option value="3">Veneto</option>
+                  </select>
+            </div>
+            <div class="col-12 col-md-2">
+                <label for="citta" class="form-label">CAP</label>
+                <input type="text" class="form-control" id="cap">
+            </div>
+            <!-- Scegli file -->
+            <div class="col-12">
+                <label for="formFile" class="form-label">Foto</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <!-- Check per proseguire -->
+            <div class="col-12">
+                <div class="form-check ">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Seleziona per proseguire
+                    </label>
+                </div>
+            </div>
+            <!-- I due pulsanti -->
+            <div class="col-12">
+                <button type="button" class="btn btn-primary">Salva</button>
+                <button type="button" class="btn btn-warning">Svuota</button>
+            </div>
+        </div>
+    </div>
   </div>
 </div>
 </body>

@@ -63,6 +63,15 @@
  .badge{
    background-color: rgba(0, 0, 0, 0.137);
  }
+ .upper-plus{
+   background-color: rgba(0, 0, 0, 0.137);
+   border-radius: 45%;
+   padding: 10px;
+   font-size: 10px;
+ }
+ .offcanvas{
+   width: 800px;
+ }
 
 /* Inizio media */
  @media screen and (max-width: 768px){
