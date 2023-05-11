@@ -105,9 +105,10 @@
  }
  .fa-code{
    padding: 6px 4px;
-   background-color: orange;
+   background-color: rgb(247, 120, 46);
    border-radius: 50%;
    margin-right: 4px;
+   color:white;
  }
  .badge{
    background-color: rgba(0, 0, 0, 0.137);
@@ -118,6 +119,7 @@
    padding: 7px;
    font-size: 0.6rem;
 }
+
  @media screen and (max-width: 768px){
     .sidebar{
         width: 70px;
@@ -126,3 +128,8 @@
         padding-left: 70px;
     } 
  }
+ @media screen and (max-width: 576px){
+   .d_none{
+      display: none;
+   }
+}
