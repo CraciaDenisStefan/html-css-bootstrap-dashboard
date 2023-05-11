@@ -85,16 +85,37 @@
         <div class="container-fluid">
             <section class="new_student">
                 <!-- Inizio section nuovo studente -->
-                <div class="row ">
-                    <div class="col-12 col-md-4 order-md-3 background_green h_50">nuovo studente</div>
-                    <div class="col-12 col-md-4 order-md-1 background_green h_50">boolean</div>
-                    <div class="col-12 col-md-4 order-md-2 background_green h_50">125</div>
+                <div class="row py-4 bg-primary ">
+                    <div class="col-12 col-md-3 order-md-3  ">
+                        <h4 class="fs_custom  text-white d-inline">Nuovo studente </h4>
+                        <span> 
+                            <button type="button" class="btn btn-outline-light fs_custom">+</button>
+                        </span>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-1 my-3 ">
+                        <h4 class="text-white d-inline-block">Boolean</h4>
+                        <span class="badge rounded-pill text-white">Piano blaze</span>
+                        <div class="badge_plus fs_custom">
+                            <span class="badge rounded-pill text-white">3 app</span>
+                            <span>
+                                <i class="fa-solid fa-angles-right text-white"></i>
+                                <i class="fa-solid fa-plus upper-plus text-white d-lg-none"></i>
+                            </span>
+                            <span class="badge rounded-pill text-white d-none d-lg-inline-block">Boolean mobile app</span>
+                            <span class="badge rounded-pill text-white d-none d-lg-inline-block">Boolean web app</span>
+                            <span class="badge rounded-pill text-white d-none d-lg-inline-block">Boolean blog app</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 order-md-2 text-white ">
+                        <p class="fs_custom">Studenti online negli ultimi 30 minuti</p>
+                        <h4>125</h4>
+                    </div>
                 </div>
             </section>
             <section class="info">
                 <!-- Inizio section informazioni -->
                 <div class="row">
-                    <div class="col-12 col-lg-8 background_green">
+                    <div class="col-12 col-lg-8 ">
                         <!-- Inizio prossime classi -->
                         <div class="card">
                                 <div class="card-header">
@@ -170,49 +191,42 @@
                         </div>
                     </div>
                     <!-- Inizio To do -->
-                    <div class="col-12 col-lg-4 background_green">
+                    <div class="col-12 col-lg-4 my-3">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Todo</h4>
                             </div>
                             <div class="card-body">
-                                <table class="table table-bordered  fs_custom">
-                                    <tbody>
-                                    <tr>
-                                        <td> 
-                                            <div class="form-check ">
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                                 <label class="form-check-label" for="defaultCheck1">
-                                                    Kickoff nuove classi
-                                                </label>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check ">
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                                <label class="form-check-label" for="defaultCheck1">
-                                                    Lezione di Bootstrap 5 in classe #75
-                                                </label>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                                <label class="form-check-label" for="defaultCheck1">
-                                                    Controllare username github studenti.
-                                                </label>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <ul class="list-group fs_custom">
+                                    <li class="list-group-item">
+                                        <div class="form-check ">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                             <label class="form-check-label" for="defaultCheck1">
+                                                Kickoff nuove classi
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check ">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Lezione di Bootstrap 5 in classe #75
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Controllare username github studenti.
+                                            </label>
+                                        </div> 
+                                    </li>                              
+                                  </ul>
                             </div>
                         </div>
                         <!-- Inizio grafico -->
-                        <div class="card">
+                        <div class="card my-3">
                             <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Utenti attivi</h5>
