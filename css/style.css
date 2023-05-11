@@ -53,6 +53,16 @@
     height: 60px;
     display: flex;
     align-items: center;
+    background-color: rgb(245, 242, 242);
+ }
+ .search_bar{
+   padding-left: 5px;
+   background-color: white;
+   border-radius: 8px;
+   background-color: rgb(233, 228, 228);
+ }
+ .search_background{
+   background-color: rgb(233, 228, 228);
  }
  /* Inizio sidebar */
  .sidebar{
@@ -78,6 +88,5 @@
     }
     main{
         padding-left: 70px;
-    }
-   
+    } 
  }
