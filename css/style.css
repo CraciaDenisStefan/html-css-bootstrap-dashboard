@@ -22,6 +22,9 @@
  .search_background{
    background-color: rgb(233, 228, 228);
  }
+ .logo_mobile{
+  max-height: 50px
+ }
  /* Inizio sidebar */
  .sidebar{
     margin-top: 60px;
